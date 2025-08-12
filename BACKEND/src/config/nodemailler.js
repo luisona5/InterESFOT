@@ -46,7 +46,7 @@ const sendMailToRecoveryPassword = async(userMail,token)=>{
     html: `
     <h1>INTER_ESFOT-💪</h1>
     <hr>
-    <a href=${process.env.URL_FRONTEND}reset/${token}>Clic para reestablecer tu contraseña</a>
+    <a href=${process.env.URL_FRONTEND}/reset/${token}>Clic para reestablecer tu contraseña</a>
     <hr>
     <footer>¡Bienvenido/a a bordo! Estamos emocionados de acompañarte en esta aventura. 🌟</footer>
     `
